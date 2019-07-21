@@ -460,7 +460,6 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-const port = process.env.PORT || 3002;
-app.listen(port, () => {
-  console.log(`Server Running at ${port}`);
+app.listen({ port: process.env.PORT || 3002 }).then(({ url }) => {
+  console.log(`Server listening on ${url}`);
 });
