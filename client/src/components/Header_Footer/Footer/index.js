@@ -9,7 +9,7 @@ const Footer = ({ data }) => {
   return data.siteData ? (
     <footer className="bck_b_dark">
       <div className="container">
-        <div className="logo">Waves</div>
+        <div className="logo">Guitars</div>
         <div className="wrapper">
           <div className="left">
             <h2>Contact information</h2>

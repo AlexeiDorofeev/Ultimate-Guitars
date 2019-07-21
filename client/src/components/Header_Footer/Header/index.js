@@ -107,7 +107,7 @@ class Header extends Component {
       <header className="bck_b_light">
         <div className="container">
           <div className="left">
-            <div className="logo">BASS</div>
+            <div className="logo"> Guitars</div>
           </div>
           <div className="right">
             <div className="top"> {this.showLinks(this.state.user)}</div>
