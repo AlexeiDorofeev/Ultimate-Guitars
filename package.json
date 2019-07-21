@@ -1,5 +1,5 @@
 {
-  "name": "bass",
+  "name": "guitars",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,6 +9,9 @@
     "server": "nodemon server/server.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "engines": {
+    "node": "8.11.1"
   },
   "keywords": [],
   "author": "",
